@@ -82,7 +82,8 @@ la última capa.
 
 **Resultados y discusión**
 
-A continiación presentamos un resumen de los resultados más importantes:
+A continuación presentamos un resumen de los resultados más importantes:
+
 ![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/resultados_1.PNG)
 ![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/resultados_2.PNG)
 ![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/resultados_3.PNG)
