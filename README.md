@@ -34,22 +34,22 @@ La acción realizada por un agente en el momento t es reasignar el porcentaje de
 
 Adicionalmente, en el proceso de reubicación de las acciones es usual incluir un costo por transacción, este se define como:
 
-<img src="https://render.githubusercontent.com/render/math?math= cost_t = Vportafolio_{t-1}* tasa_{trans}* (w_t-w_{t-1})">
+<img src="https://render.githubusercontent.com/render/math?math=cost_t = Vportafolio_{t-1}* tasa_{trans}* (w_t-w_{t-1})">
 
 Este resultado se emplea cada vez que se actualiza, el costo de la transacción debe tenerse en cuenta:
 
 
-<img src="https://render.githubusercontent.com/render/math?math = vectporta_t = (\sum Vportafolio_{t-1}*w_t)- (cost_t)">
+<img src="https://render.githubusercontent.com/render/math?math=vectporta_t = (\sum Vportafolio_{t-1}*w_t)- (cost_t)">
 
 
 
 **Estados**
 
-<img src="https://render.githubusercontent.com/render/math?math = Estado_t = (Pricetensor_t, w_{t-1}, Vportafolio_{t-1})">
+<img src="https://render.githubusercontent.com/render/math?math=Estado_t = (Pricetensor_t, w_{t-1}, Vportafolio_{t-1})">
 
 **Recompensa**
 
-<img src="https://render.githubusercontent.com/render/math?math =Reward_{t} = (Vportafolio_t/ Vportafolio_{t-1}) - 1">
+<img src="https://render.githubusercontent.com/render/math?math=Reward_{t} = (Vportafolio_t/ Vportafolio_{t-1}) - 1">
 
 
 **Política: Arquitectura de red neuronal CNN**
