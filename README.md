@@ -65,7 +65,7 @@ beneficio. Para ello se emplea una red neuronal CNN para diseñar la función de
 Esta función orienta al agente sobre qué acción tomar a partir de un estado concreto, es decir cómo reasignar los pesos entre los activos para maximizar
 beneficio. Para ello se emplea una red neuronal CNN para diseñar la función de política. La arquitectura de la red se muestra a continuación:
 
-![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/cnn.png)
+![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/LSTM_.png)
 
 **Anotaciones**
 
