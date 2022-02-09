@@ -59,6 +59,14 @@ beneficio. Para ello se emplea una red neuronal CNN para diseñar la función de
 
 ![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/cnn.png)
 
+
+**Política: Arquitectura de red neuronal LSTM**
+
+Esta función orienta al agente sobre qué acción tomar a partir de un estado concreto, es decir cómo reasignar los pesos entre los activos para maximizar
+beneficio. Para ello se emplea una red neuronal CNN para diseñar la función de política. La arquitectura de la red se muestra a continuación:
+
+![title](https://raw.githubusercontent.com/ancastillar/Proyecto_Final_Series_Tiempo/main/datos/cnn.png)
+
 **Anotaciones**
 
 * La entrada de la red corresponde al tensor de precios, previamente definido, y la salida de la red es el vector de pesos w_t, el valor del portafolio y la recompensa en el tiempo t.
