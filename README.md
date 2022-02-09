@@ -1,4 +1,4 @@
-# Proyecto_-Final_Reinforcement_Learning
+# Proyecto_Final_Reinforcement_Learning
 
 
 ## Definición del problema:
@@ -30,7 +30,6 @@ En este caso el mercado financiero es nuestro ambiente, tratamos de hacer lo má
 La acción realizada por un agente en el momento $t$ es reasignar el porcentaje de cada acción dentro del portafolio. Por lo tanto, determinar el vector de pesos $w_t$.
 
 <img src="https://render.githubusercontent.com/render/math?math= accion_t = w_t = [ w_{acc_1}, w_{acc_2}, ..., w_{acc_n}]">
-
 
 
 Adicionalmente, en el proceso de reubicación de las acciones es usual incluir un costo por transacción, este se define como:
