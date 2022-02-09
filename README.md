@@ -15,7 +15,7 @@ En este proyecto queremos construir la solución al problema de optimización de
 
 Para cada una de las acciones el precio de apertura, cierre, máximo y mínimo serán escalados empleando el valor del precio de apertura, es decir para cada variable se tendra:
 
-<img src="https://render.githubusercontent.com/render/math?math=X_i = \left[\frac{X_{i, t-n-1}}{Open_{t-n-1}},....,\frac{X_{i, t-1}}{Open_{t-1}} \right], \quad i=[Open, Close, High, Low]">
+
 
 
 Por lo tanto, al final del periodo t, el vector de precio de entrada para nuestra red neuronal) será de la forma (x, y,z), en donde x es el número de características, y es el número de acciones y z el número de periodos a considerar.
@@ -27,7 +27,7 @@ En este caso el mercado financiero es nuestro ambiente, tratamos de hacer lo má
 
 3). Definición de la acción
 
-La acción realizada por un agente en el momento $t$ es reasignar el porcentaje de cada acción dentro del portafolio. Por lo tanto, determinar el vector de pesos $w_t$.
+La acción realizada por un agente en el momento t es reasignar el porcentaje de cada acción dentro del portafolio. Por lo tanto, determinar el vector de pesos w_t.
 
 <img src="https://render.githubusercontent.com/render/math?math= accion_t = w_t = [ w_{acc_1}, w_{acc_2}, ..., w_{acc_n}]">
 
